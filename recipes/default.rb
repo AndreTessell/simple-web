@@ -16,6 +16,6 @@ httpd_config 'simple' do
 end
 
 file '/var/www/index.html' do
-  content 'Simple Web Page Delight!\n'
+  content '<h1>welcome to the discotheque</h1>'
   action :create
 end
