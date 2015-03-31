@@ -3,9 +3,5 @@
   "build_cookbook": {
     "name": "delivery-truck",
     "git": "https://github.com/opscode-cookbooks/delivery-truck.git"
-  },
-  "delivery-truck": {
-    "publish": {
-      "chef_server": true
-    }
+  }
 }
