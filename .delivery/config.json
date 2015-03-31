@@ -1,4 +1,14 @@
 {
   "version": "1",
-  "build_cookbook": "delivery-truck"
+  "build_cookbook": "delivery-truck",
+  "skip_phases": [
+    "smoke",
+    "security",
+    "quality"
+  ],
+  "delivery-truck": {
+    "publish": {
+      "chef_server": true
+    }
+  }
 }
