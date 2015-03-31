@@ -2,6 +2,6 @@
   "version": "2",
   "build_cookbook": {
     "name": "delivery-truck",
-    "git": ""https://github.com/opscode-cookbooks/delivery-truck.git"
+    "git": "git@github.com:opscode-cookbooks/delivery-truck.git"
   }
 }
