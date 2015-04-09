@@ -16,6 +16,6 @@ httpd_config 'simple' do
 end
 
 file '/var/www/index.html' do
-  content "<h1>Hans, I'm your white KNIGHT</h1>"
+  content "<h1>Testing my pipeline</h1>"
   action :create
 end
