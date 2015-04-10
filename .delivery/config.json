@@ -4,7 +4,9 @@
   "skip_phases": [
     "smoke",
     "security",
-    "quality"
+    "quality",
+    "functional",
+    "unit"
   ],
   "delivery-truck": {
     "publish": {
