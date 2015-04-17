@@ -16,7 +16,7 @@ httpd_config 'simple' do
   notifies :restart, 'httpd_service[default]'
 end
 
-file '/var/www/index2.html' do
-  content "<h1>Hello, All My Awesome People!</h1>"
+file '/var/www/index.html' do
+  content "<h1>M-O-O-N. That spells 'Hello World'!</h1>"
   action :create
 end
