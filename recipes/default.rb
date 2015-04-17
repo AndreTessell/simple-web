@@ -8,6 +8,7 @@ include_recipe 'apt'
 
 httpd_service 'default' do
   action [:create, :start]
+  listen_ports ['8080']
 end
 
 httpd_config 'simple' do
