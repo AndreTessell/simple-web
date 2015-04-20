@@ -8,7 +8,7 @@ include_recipe 'apt'
 
 httpd_service 'default' do
   action [:create, :start]
-  listen_ports ['80','8080']
+  listen_ports ['80', '8080']
 end
 
 httpd_config 'simple' do
@@ -17,6 +17,6 @@ httpd_config 'simple' do
 end
 
 file '/var/www/index.html' do
-  content "<h1>M-O-O-N. To all my friends!!!</h1>"
+  content '<h1>M-O-O-N. To all my friends!!!</h1>'
   action :create
 end
