@@ -16,3 +16,5 @@ MethodLength:
   Max: 30
 Style/FileName:
   Enabled: false
+Style/WordArray:
+  Enabled: false
