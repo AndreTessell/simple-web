@@ -13,7 +13,9 @@ gem 'berkshelf'
 #   gem "vagrant-berkshelf", github: "berkshelf/vagrant-berkshelf"
 #   gem "vagrant-omnibus", github: "schisamo/vagrant-omnibus"
 # end
-
-gem "test-kitchen"
-gem "kitchen-vagrant"
-gem 'vagrant-wrapper'
+group :development do
+  gem 'foodcritic'
+  gem "test-kitchen"
+  gem "kitchen-vagrant"
+  gem 'vagrant-wrapper'
+end
