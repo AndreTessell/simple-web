@@ -35,8 +35,7 @@ end
 
 execute 'extract web files' do
   command 'tar -xvf /tmp/webfiles.tar.gz -C /var/www/'
-  not_if do 
-    ::File.exists?('/var/www/favicon.ico') 
+  not_if do
+    ::File.exists?('/var/www/favicon.ico')
   end
 end
-
