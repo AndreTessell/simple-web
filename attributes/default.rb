@@ -1,2 +1,2 @@
-default['simple-web']['company-name'] = 'Target'
-default['simple-web']['project-name'] = 'Delivery makes you more handsome'
+default['simple-web']['company-name'] = 'Chef Software, Inc'
+default['simple-web']['project-name'] = 'Lopsum Ipsem Delivery Delivery'
