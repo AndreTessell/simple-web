@@ -20,3 +20,22 @@ file '/var/www/index.html' do
   content "<h1>Hello, demo friends!</h1>"
   action :create
 end
+
+cookbook_file '/tmp/webfiles.tar.gz' do
+  source 'webfiles.tar.gz'
+  owner 'root'
+  group 'root'
+  mode '0644'
+end
+
+template '/var/www/index.html' do
+  source 'index.html.erb'
+  action :create
+end
+
+execute 'extract web files' do
+  command 'tar -xvf /tmp/webfiles.tar.gz -C /var/www/'
+  not_if do
+    ::File.exists?('/var/www/favicon.ico')
+  end
+end
