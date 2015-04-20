@@ -6,8 +6,12 @@ provisioner:
   name: chef_solo
 
 platforms:
-  - name: ubuntu-12.04
-  - name: centos-6.4
+  - name: ubuntu-14.04
+    driver:
+      vagrantfile_erb: Vagrantfile.erb
+    driver_config:
+      network:
+      - ["forwarded_port", {guest: 80, host: 8080}]
 
 suites:
   - name: default
