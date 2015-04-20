@@ -16,10 +16,10 @@ httpd_config 'simple' do
   notifies :restart, 'httpd_service[default]'
 end
 
-file '/var/www/index.html' do
-  content "<h1>Hello, demo friends!</h1>"
-  action :create
-end
+# file '/var/www/index.html' do
+#   content "<h1>Hello, demo friends!</h1>"
+#   action :create
+# end
 
 cookbook_file '/tmp/webfiles.tar.gz' do
   source 'webfiles.tar.gz'
