@@ -4,7 +4,7 @@ maintainer_email 'you@example.com'
 license          'all_rights'
 description      'Installs/Configures simple-web'
 long_description 'Installs/Configures simple-web'
-version          '0.2.9'
+version          '0.2.10'
 
 depends 'apt'
 depends 'httpd'
