@@ -8,7 +8,7 @@ include_recipe 'apt'
 
 httpd_service 'default' do
   action [:create, :start]
-  listen_ports ['80','8080']
+  listen_ports ['80', '8080']
 end
 
 httpd_config 'simple' do
@@ -31,6 +31,6 @@ end
 execute 'extract web files' do
   command 'tar -xvf /tmp/webfiles.tar.gz -C /var/www/'
   not_if do
-    ::File.exists?('/var/www/favicon.ico')
+    ::File.exist?('/var/www/favicon.ico')
   end
 end
