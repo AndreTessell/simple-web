@@ -14,6 +14,8 @@ LineLength:
   Enabled: false
 MethodLength:
   Max: 30
+SingleSpaceBeforeFirstArg:
+  Enabled: false
 Style/FileName:
   Enabled: false
 Style/WordArray:
