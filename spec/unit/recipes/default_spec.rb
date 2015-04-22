@@ -13,6 +13,10 @@ describe 'simple-web::default' do
       runner.converge(described_recipe)
     end
 
+    it 'downloads the web content tarball' do
+      expect(chef_run).to create_cookbook_file('/tmp/webfiles.tar.gz')
+    end
+
     it 'converges successfully' do
       chef_run # This should not raise an error
     end

@@ -6,10 +6,13 @@
 
 include_recipe 'apt'
 
+# rubocop
+# Replace done with end to fix error
 httpd_service 'default' do
   action [:create, :start]
   listen_ports ['80', '8080']
 end
+# done
 
 httpd_config 'simple' do
   source 'simple.erb'
