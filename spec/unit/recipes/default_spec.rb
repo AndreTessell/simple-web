@@ -18,7 +18,7 @@ describe 'simple-web::default' do
     end
 
     it 'creates index.html' do
-      expect(chef_run).to create_file('/var/www/index.html')
+      expect(chef_run).to render_file('/var/www/index.html')
     end
   end
 end
