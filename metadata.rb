@@ -6,7 +6,7 @@ maintainer_email 'admin@chef.io'
 license          'all_rights'
 description      'Installs/Configures simple-web'
 long_description 'Installs/Configures simple-web'
-version          '0.2.14'
+version          '0.2.15'
 
 depends 'apt'
 depends 'httpd'
