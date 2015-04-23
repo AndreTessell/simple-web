@@ -5,8 +5,7 @@
     "smoke",
     "security",
     "quality",
-    "functional",
-    "unit"
+    "functional"
   ],
   "delivery-truck": {
     "publish": {
