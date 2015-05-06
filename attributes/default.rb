@@ -1,2 +1,2 @@
-default['simple-web']['company-name'] = 'The Bestest Company in the Whole Wide World'
-default['simple-web']['project-name'] = 'Fueling the love of delivery, one demo at a time.'
+default['simple-web']['company-name'] = 'Chef Software'
+default['simple-web']['project-name'] = 'Friends don't let friends' managers update code.'
