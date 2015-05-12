@@ -1,2 +1,2 @@
-default['simple-web']['company-name'] = 'Optum'
-default['simple-web']['project-name'] = 'Friday Morning Super Fun Project'
+default['simple-web']['company-name'] = 'Chef'
+default['simple-web']['project-name'] = 'Chef Magic Sauce'
