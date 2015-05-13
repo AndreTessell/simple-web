@@ -1,2 +1,2 @@
-default['simple-web']['company-name'] = 'Chef User Group'
-default['simple-web']['project-name'] = 'Deep Dish Devops'
+default['simple-web']['company-name'] = 'Everyone at the Cloud Automation with Chef Event!'
+default['simple-web']['project-name'] = 'Doing the Devops thing'
