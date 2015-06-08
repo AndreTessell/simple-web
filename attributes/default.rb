@@ -1,2 +1,2 @@
-default['simple-web']['company-name'] = 'Mastercard'
-default['simple-web']['project-name'] = 'Awesome DevOps Stuff'
+default['simple-web']['company-name'] = 'Devop Kung Fu'
+default['simple-web']['project-name'] = 'We Love DevOps Stuff'
